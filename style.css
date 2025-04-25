@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, #1c1c1c, #4a0000);
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    padding: 100px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #ff4d4d;
+    margin-bottom: 40px;
+    animation: pop 1s ease-out;
+  }
+  
+  @keyframes pop {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+  }
+  
+  .yes {
+    background-color: #ff1a1a;
+    color: white;
+  }
+  
+  .no {
+    background-color: #990000;
+    color: white;
+  }
+  
+  #longText {
+    display: none;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #ffe6e6;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+  }
+  
+  #hereBabe {
+    display: none;
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: #ff3333;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  
